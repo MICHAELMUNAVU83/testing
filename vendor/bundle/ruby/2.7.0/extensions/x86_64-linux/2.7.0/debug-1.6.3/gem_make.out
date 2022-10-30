@@ -1,0 +1,16 @@
+current directory: /home/trance/testing/vendor/bundle/ruby/2.7.0/gems/debug-1.6.3/ext/debug
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20221030-39360-iipfnv.rb extconf.rb
+creating Makefile
+
+current directory: /home/trance/testing/vendor/bundle/ruby/2.7.0/gems/debug-1.6.3/ext/debug
+make "DESTDIR=" clean
+
+current directory: /home/trance/testing/vendor/bundle/ruby/2.7.0/gems/debug-1.6.3/ext/debug
+make "DESTDIR="
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/trance/testing/vendor/bundle/ruby/2.7.0/gems/debug-1.6.3/ext/debug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20221030-39360-5pkgpu/debug
