@@ -1,0 +1,16 @@
+current directory: /home/trance/testing/vendor/bundle/ruby/3.0.0/gems/debug-1.6.3/ext/debug
+/home/trance/.rbenv/versions/3.0.0/bin/ruby -I /home/trance/.rbenv/versions/3.0.0/lib/ruby/3.0.0 -r ./siteconf20221030-41004-esjjcr.rb extconf.rb
+creating Makefile
+
+current directory: /home/trance/testing/vendor/bundle/ruby/3.0.0/gems/debug-1.6.3/ext/debug
+make "DESTDIR=" clean
+
+current directory: /home/trance/testing/vendor/bundle/ruby/3.0.0/gems/debug-1.6.3/ext/debug
+make "DESTDIR="
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/trance/testing/vendor/bundle/ruby/3.0.0/gems/debug-1.6.3/ext/debug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20221030-41004-b8hm7r/debug
